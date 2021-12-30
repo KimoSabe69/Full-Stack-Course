@@ -1,14 +1,14 @@
 package com;
 
-public class Member {
+public class User {
 	
 	private String firstname, surname, cell,  email, password;
 
-	public Member() {
+	public User() {
 		super();
 	}
 
-	public Member(String firstname, String surname, String email, String cell, String password) {
+	public User(String firstname, String surname, String email, String cell, String password) {
 		super();
 		this.firstname = firstname;
 		this.surname = surname;
@@ -16,7 +16,7 @@ public class Member {
 		this.cell = cell;
 		this.password = password;
 	}
-	public Member(String email, String password) {
+	public User(String email, String password) {
 		super();
 		this.email = email;
 		this.password = password;
