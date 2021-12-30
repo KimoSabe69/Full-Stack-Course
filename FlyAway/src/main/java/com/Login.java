@@ -39,7 +39,7 @@ public class Login extends HttpServlet {
 		String email = request.getParameter("email");
 		String password = request.getParameter("password");
 		
-		Member member = new Member(email, password);
+		User member = new User(email, password);
 		
 		UserDAO login = new UserDAO();
 		String message = login.verify(member);
@@ -54,15 +54,12 @@ public class Login extends HttpServlet {
 			response.getWriter().print("\nCould not fetch ID\n");
 			
 		}
-		
-		response.getWriter().print(message + "\n");
-		//response.getWriter().print("\nLogged in as " + results.getString("Firstname"));
-		//response.getWriter().print("\nLogged in as " + name);
-		
-		
-		
-		//String result = login.insert(member);
-		//response.getWriter().print(result);
+		if (login.getApproved()) {
+			response.sendRedirect("Main.jsp");
+		} else {
+			response.getWriter().print(message + "\n");
+			response.sendRedirect("Register.jsp");
+		}
 		
 		
 	}

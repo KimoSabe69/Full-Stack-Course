@@ -6,6 +6,7 @@
 		<meta charset="UTF-8">
 		<title>Login: FlyAway</title>
 	</head>
+	
 	<body>
 		<div align="center">
 			<h1>FlyAway Login</h1>

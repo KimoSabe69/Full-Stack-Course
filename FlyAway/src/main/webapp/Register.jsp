@@ -3,10 +3,23 @@
 <!DOCTYPE html>
 <html>
 	<head>
+			<%
+			try{
+				session = request.getSession();
+				boolean approved = Boolean.TRUE == request.getAttribute("approved");
+				if(approved) {
+					response.sendRedirect("Main.jsp");
+					response.getWriter().print("you are approved");
+				} else {
+					session.setAttribute("approved", false);
+					response.getWriter().print("not approved");
+				}
+			} finally {
+			}
+			%>
 		<meta charset="UTF-8">
 		<title>Registration: FlyAway</title>
 	</head>
-	
 	<body>
 		<div align="center">
 			<h1>FlyAway Registration</h1>
