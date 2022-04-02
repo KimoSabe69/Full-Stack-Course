@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26381" started-at="2022-04-02T16:55:47Z" finished-at="2022-04-02T16:56:13Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="CardTest.CreditCardTest()[pri:0, instance:testng.CardTest@28d25987]" name="CreditCardTest" class="testng.CardTest"/>
+        <method signature="LoanTest.HomeLoanTest()[pri:0, instance:testng.LoanTest@4501b7af]" name="HomeLoanTest" class="testng.LoanTest"/>
+        <method signature="LoginTest.LoginTestcase1(java.lang.String, java.lang.String)[pri:0, instance:testng.LoginTest@523884b2]" name="LoginTestcase1" class="testng.LoginTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test name="Test" duration-ms="26381" started-at="2022-04-02T16:55:47Z" finished-at="2022-04-02T16:56:13Z">
+      <class name="testng.CardTest">
+        <test-method status="PASS" signature="CreditCardTest()[pri:0, instance:testng.CardTest@28d25987]" name="CreditCardTest" duration-ms="6" started-at="2022-04-02T22:25:47Z" finished-at="2022-04-02T22:25:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreditCardTest -->
+      </class> <!-- testng.CardTest -->
+      <class name="testng.LoginTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:testng.LoginTest@523884b2]" name="Setup" is-config="true" duration-ms="15970" started-at="2022-04-02T22:25:47Z" finished-at="2022-04-02T22:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="LoginTestcase1(java.lang.String, java.lang.String)[pri:0, instance:testng.LoginTest@523884b2]" name="LoginTestcase1" duration-ms="9292" started-at="2022-04-02T22:26:03Z" finished-at="2022-04-02T22:26:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pal35swapnil35@fsd.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pqr@123546436Q]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestcase1 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testng.LoginTest@523884b2]" name="TearDown" is-config="true" duration-ms="1097" started-at="2022-04-02T22:26:12Z" finished-at="2022-04-02T22:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testng.LoginTest -->
+      <class name="testng.LoanTest">
+        <test-method status="PASS" signature="HomeLoanTest()[pri:0, instance:testng.LoanTest@4501b7af]" name="HomeLoanTest" duration-ms="1" started-at="2022-04-02T22:25:47Z" description="This test is for Home Loan" finished-at="2022-04-02T22:25:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLoanTest -->
+      </class> <!-- testng.LoanTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

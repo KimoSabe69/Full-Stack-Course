@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  	<parameter name="param1" value="pal35swapnil35@fsd.com" />
+  	<parameter name="param2" value="pqr@123546436Q" />
+  	<groups>
+  		<run>
+  			<include name="Sanity"/>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="testng.CardTest"/>
+      <class name="testng.LoanTest"/>
+      <class name="testng.LoginTest"/>
+      <class name="testng.Temp"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
