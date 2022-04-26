@@ -1,0 +1,44 @@
+    1  yum install git
+    2  yum install maven
+    3  yum instal -update maven
+    4  yum install --update maven
+    5  yum install maven --update
+    6  yum install --upgrade maven
+    7  git clone https://github.com/callicoder/spring-boot-websocket-chat-demo.git
+    8  ls
+    9  cd spring-boot-websocket-chat-demo
+   10  mvn clean
+   11  yum install java
+   12  java -version
+   13  yum install java --version 11.0
+   14  java --version
+   15  yum install docker
+   16  yum update
+   17  yum update gut
+   18  yum update git
+   19  mvn clean
+   20  sudo amazon-linux-extras install java-openjdk11
+   21  mvn clean
+   22  yum install docker.io
+   23  yum install docker]
+   24  yum install docker
+   25  docker buildmvn package
+   26  mvn package
+   27  mvn -v
+   28  alternatives --config java
+   29  mvn -v
+   30  mvn clean
+   31  mvn package
+   32  yum install docker
+   33  docker pull docker.io/kimosabe69/springapplication
+   34  yum install docker.io
+   35  yum install docker -y
+   36  systemctl start docker
+   37  docker pull docker.io/kimosabe69/springapplication
+   38  docker ps -a
+   39  docker images
+   40  docker run -d -p 5000:8080 --name phase5container nicks204/phase5image:v1
+   41  history
+
+
+from Azhar Farooq Wani to All Participants:wget https://mirrors.estointernet.in/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gzfrom Azhar Farooq Wani to All Participants:https://www.journaldev.com/33588/install-maven-linux-ubuntu
